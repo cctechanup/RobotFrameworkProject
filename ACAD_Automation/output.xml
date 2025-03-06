@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.13.1 on win32)" generated="2025-01-01T20:13:43.726973" rpa="false" schemaversion="5">
+<suite id="s1" name="Launch" source="C:\ROBOTFramework\ACAD_Automation\Tests\Launch.robot">
+<test id="s1-t1" name="Draw Line in AutoCAD" line="5">
+<kw name="Open Autocad" owner="AutoCAD">
+<arg>C:\\Program Files\\Autodesk\\AutoCAD 2026\\acad.exe</arg>
+<doc>Open AutoCAD application.</doc>
+<status status="PASS" start="2025-01-01T20:13:44.073124" elapsed="6.693920"/>
+</kw>
+<kw name="Draw Line" owner="AutoCAD">
+<arg>0,0</arg>
+<arg>100,100</arg>
+<doc>Draw a line in AutoCAD.
+:param start_point: Starting point as 'x,y'
+:param end_point: Ending point as 'x,y'</doc>
+<status status="PASS" start="2025-01-01T20:13:50.767675" elapsed="0.624816"/>
+</kw>
+<doc>Open AutoCAD, draw a line, and close the application.</doc>
+<status status="PASS" start="2025-01-01T20:13:44.072076" elapsed="7.320897"/>
+</test>
+<status status="PASS" start="2025-01-01T20:13:43.729615" elapsed="7.664452"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Launch">Launch</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

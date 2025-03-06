@@ -1,0 +1,1 @@
+ChangeResolution.exe 1280x1024
